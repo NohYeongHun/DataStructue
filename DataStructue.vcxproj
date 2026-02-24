@@ -137,9 +137,11 @@
   <ItemGroup>
     <ClCompile Include="DataStructue.cpp" />
     <ClCompile Include="private\List.cpp" />
+    <ClCompile Include="private\Stack.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="public\List.h" />
+    <ClInclude Include="public\Stack.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="List.md" />
