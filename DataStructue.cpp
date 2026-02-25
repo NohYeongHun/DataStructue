@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include "List.h"
+#include "Stack.h"
 
 using namespace std;
 
@@ -13,8 +14,16 @@ void TestList()
 	delete list;
 }
 
+void TestStack()
+{
+	Stack<int>* stack = new Stack<int>;
+	stack->TestCaseFirst();
+	delete stack;
+}
+
+
 int main()
 {
-	TestList();
+	TestStack();
 }
 

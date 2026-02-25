@@ -174,6 +174,7 @@ inline void List<T>::Print()
 		current = current->next;
 	}
 	std::cout << std::endl;
+	std::cout << "현재 사이즈는 : " << GetSize() << std::endl;
 }
 
 template<typename T>
@@ -191,5 +192,6 @@ inline void List<T>::TestCaseFirst()
 	RemoveAll(2);
 
 	Print();
+
 
 }
